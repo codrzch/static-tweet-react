@@ -1,0 +1,120 @@
+body {
+  padding: 30px;
+  background-color: #4bcffa;
+}
+
+.tweet {
+  margin: 0 auto;
+  max-width: 700px;
+  height: 50px;
+  background-color: #ecf0f1;
+  border-radius: 3px;
+  border: 4px solid #ccc;
+  width: 564px;
+  min-height: 68px;
+  padding: 10px;
+  display: flex;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-right: 0.3em;
+}
+
+.handle {
+  color: #8899a6;
+  font-size: 13px;
+}
+
+.time {
+  padding-left: 0.3em;
+  color: #8899a6;
+}
+
+.time::before {
+  content: "\00b7";
+  padding-right: 0.3em;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-left: 2px;
+  font-size: 1.4em;
+  color: #aab8c2;
+}
+
+.reply-button, .retweet-button, .like-button, .more-options-button {
+  width: 80px;
+  display: inline-block;
+}
+
+.like-count, .retweet-count {
+  position: relative;
+  bottom: 2px;
+  font-size: 13px;
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media screen and (max-width: 700px) {
+  .tweet {
+    width: 464px;
+    padding-top: 1.5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tweet {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+
+  .tweet {
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .handle {
+    color: #8899a6;
+    font-size: 11px;
+  }
+
+  .time {
+    padding-left: 0.3em;
+    color: #8899a6;
+    font-size: 9px;
+  }
+
+  .buttons {
+    font-size: 1em;
+  }
+
+  .reply-button,
+  .retweet-button,
+  .like-button,
+  .more-options-button {
+    width: 60px;
+    display: inline-block;
+  }
+
+  .like-count,
+  .retweet-count {
+    position: relative;
+    bottom: 0px;
+    font-size: 11px;
+  }
+}
