@@ -8,7 +8,7 @@ Author: Zach Mathson
 
 ## Overview
 
----> Simple/static tweet element UI made with React.js!
+---> Simple/static/fully responsive tweet element UI made with React.js!
 
 ## Preview
 
