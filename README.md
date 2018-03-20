@@ -3,6 +3,7 @@
 Author: Zach Mathson
 
 ---> This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
 ---> S/O Dave Ceddia, purchase his book [Pure React](https://daveceddia.com/pure-react/).
 
 ## Overview
@@ -16,6 +17,9 @@ Author: Zach Mathson
 ## How To Run
 
 ---> Clone or download the project files.
+
 ---> Cd to the project directory.
+
 ---> 'npm install'
+
 ---> 'npm start'
